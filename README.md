@@ -106,7 +106,7 @@ The AI service runs inside a Python virtual environment to avoid conflicts with 
 
 ## 🚀 How to Run the Application Step-by-Step
 
-To run the complete application, you will need to open **three separate Command Prompt (`cmd.exe`) windows** (one for each microservice). Follow these commands:
+To run the complete application, you will need to open **four separate Command Prompt (`cmd.exe`) windows** (one for each microservice). Follow these commands:
 
 ### 🟢 Terminal 1: Run the Backend
 ```cmd
@@ -129,6 +129,14 @@ cd frontend
 npm run dev
 ```
 *Runs on [http://localhost:5173](http://localhost:5173)*
+
+### 🟢 Terminal 4: Run the Database
+
+```cmd
+mysql -u root -p
+
+```
+(Enter your password ( same as applicatio.properties ) )
 
 ---
 
