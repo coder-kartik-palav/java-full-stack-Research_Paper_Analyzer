@@ -108,14 +108,21 @@ The AI service runs inside a Python virtual environment to avoid conflicts with 
 
 To run the complete application, you will need to open **four separate Command Prompt (`cmd.exe`) windows** (one for each microservice). Follow these commands:
 
-### 🟢 Terminal 1: Run the Backend
+### 🟢 Terminal 1: Run the Database
+
+```cmd
+mysql -u root -p
+
+```
+(Enter your password ( same as applicatio.properties ) )
+### 🟢 Terminal 2: Run the Backend
 ```cmd
 cd backend
 mvn spring-boot:run
 ```
 *Runs on [http://localhost:8080](http://localhost:8080)*
 
-### 🟢 Terminal 2: Run the Python AI Service
+### 🟢 Terminal 3: Run the Python AI Service
 ```cmd
 cd ai-service
 venv\Scripts\activate.bat
@@ -123,20 +130,14 @@ python main.py
 ```
 *Runs on [http://localhost:8000](http://localhost:8000)*
 
-### 🟢 Terminal 3: Run the React Frontend
+### 🟢 Terminal 4: Run the React Frontend
 ```cmd
 cd frontend
 npm run dev
 ```
 *Runs on [http://localhost:5173](http://localhost:5173)*
 
-### 🟢 Terminal 4: Run the Database
 
-```cmd
-mysql -u root -p
-
-```
-(Enter your password ( same as applicatio.properties ) )
 
 ---
 
