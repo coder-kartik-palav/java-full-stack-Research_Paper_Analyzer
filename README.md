@@ -143,6 +143,14 @@ npm run dev
 
 ---
 
+<img width="500" height="586" alt="image" src="https://github.com/user-attachments/assets/a0dbea54-a4c2-4689-a039-0e82a2cbce6f" />
+
+<img width="1879" height="934" alt="image" src="https://github.com/user-attachments/assets/89f0b163-f258-42ad-a880-810cbb498f53" />
+
+<img width="1913" height="928" alt="image" src="https://github.com/user-attachments/assets/1de23a35-6a9e-4182-a980-cbc4ffe9c921" />
+
+<img width="1920" height="937" alt="image" src="https://github.com/user-attachments/assets/dbdaa8ad-6688-4574-9bd7-069bb6681ce3" />
+
 ## 📦 Installed Python Libraries Description
 
 Here are the key Python packages used to run the offline AI analysis:
